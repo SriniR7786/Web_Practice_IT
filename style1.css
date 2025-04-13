@@ -3,7 +3,9 @@
 
 *{
 	font-family: 'inter', sans-serif;
+	text-decoration: none;
 }
+
 
 #top-black{
 	background-color: black;
@@ -11,18 +13,31 @@
 
 #header{
 	background-color: cyan;
-	height: 80px;
+	height: 78px;
 }
 
 #header img{
 	width: 300px;
 }
 
-a {
-	text-decoration: none;
+
+.navdiv{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	
 }
-.navbar{
-	float: right;
+
+li{
+	list-style-type: none;
+	display: inline-block;
+}
+
+li a {
+	color: rgb(10, 10, 10);
+	font-size: 16px;
+	font-weight: bold;
+	margin-right: 24px;
 }
 
 #container-mid{
@@ -98,7 +113,6 @@ a {
 	text-align: center;
 	padding: 24px 0;
 }
-
 
 @media (max-width: 400px) {
 	.navbar{
