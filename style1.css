@@ -8,11 +8,12 @@
 
 
 #top-black{
-	background-color: black;
+	background-color: #f3f2f2;
+	color: white;
 }
 
 #header{
-	background-color: cyan;
+	background-color: white;
 	height: 78px;
 }
 
@@ -48,6 +49,7 @@ li a {
 #banner{
 	background-color: red;
 	height: 400px;
+	margin: 16px;
 }
 
 #banner img{
@@ -55,9 +57,13 @@ li a {
 	height: 400px;
 }
 
+#intro1{
+	margin: 16px;
+
+}
 
 #box1{
-	background-color: blue;
+	background-color: #f0f2ff;
 	height: 200px;
 	float: left;
 	width: 29%;
@@ -66,7 +72,8 @@ li a {
 }
 
 #box2{
-	background-color: green;
+	background-color: #000077;
+	color: white;
 	height: 200px;
 	float: left;
 	width: 29%;
@@ -75,38 +82,47 @@ li a {
 
 
 #box3{
-	background-color: yellow;
+	background-color: #f0f2ff;
 	height: 200px;
 	float: right;
 	width: 29%;
 	padding: 24px;
 }
 
+
+#intro2{
+	margin: 16px;
+
+}
+
 #box4{
-	background-color: magenta;
+	background-color: white;
 	clear: both;
-	width: 55%;
+	width: 60%;
 	float: left;
 	height: 220px;
 	padding-left: 16px;
 }
 
 #box5{
-	background-color: orange;
-	width: 42%;
+	background-color: white;
+	width: 434px;
 	float: right;
 	height: 220px;
+	margin: 16px;
 	
 }
 
+/*
 #box5 img{
-	width: 100%;
+	width: 434px;
 	height: 220px;
 	
 }
+*/
 
 #footer{
-	background-color: black;
+	background-color: #252525;
 	clear: both;
 	height: 20px;
 	color: white;
